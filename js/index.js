@@ -24,13 +24,13 @@ function handlePause() {
 }
 
 function handleBackw() {
-  $video.currentTime -= 10
-  console.log('le diste click a -10 seg', $video.currentTime)
+  $video.currentTime -= 5
+  console.log('le diste click a -5 seg', $video.currentTime)
 }
 
 function handleFordw() {
-  $video.currentTime += 10
-  console.log('le diste click a +10 seg', $video.currentTime)
+  $video.currentTime += 5
+  console.log('le diste click a +5 seg', $video.currentTime)
 }
 
 const $progress = document.querySelector('#progress')
